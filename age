@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int i, i1, i2;
+	for (i = 10; i < 30; i++)
+	{
+		i1 = i * i * i;
+		i2 = i1 * i;
+		if (i1>= 1000 && i1 <= 10000 && i2 >= 100000 && i2 <= 1000000)
+			printf("%d %d %d\n", i, i1, i2);
+	}
+	return 0;
+}
